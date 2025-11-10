@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/soilTestTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_test_title"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:textColor="@color/green" />
+
+        <!-- Soil Moisture Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_soil_moisture"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/soilmoistureInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_soil_moisture"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Temperature Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_temperature"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/temperatureInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_temperature"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Humidity Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_humidity"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/humidityInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_humidity"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Nitrogen Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_nitrogen"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/nitrogenInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_nitrogen"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Phosphorus Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_phosphorus"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/phosphorusInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_phosphorus"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Potassium Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_potassium"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/potassiumInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_potassium"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Soil Type -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_soil_type"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/green" />
+
+            <!-- Dropdown -->
+            <Spinner
+                android:id="@+id/soilTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/green"
+                android:entries="@array/soil_types" />
+        </LinearLayout>
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/checkSuitabilityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_suitability"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/color_white" />
+
+        <!-- Result Text -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

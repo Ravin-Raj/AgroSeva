@@ -1,0 +1,235 @@
+<resources>
+    <!-- App General -->
+    <string name="app_name">Agro Seva</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login">LOGIN</string>
+    <string name="reset">RESET PASSWORD</string>
+    <string name="email">Email</string>
+    <string name="reset2">Reset</string>
+    <string name="f_b">Forgot Password?</string>
+    <string name="register">REGISTER</string>
+    <string name="fullname">Full Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="old_account">Already have an account?</string>
+    <string name="skip">Skip Login</string>
+
+    <!-- Home Page -->
+    <string name="homepage">Home Page</string>
+    <string name="notification">Notification</string>
+    <string name="back">Back</string>
+    <string name="rate">Rate</string>
+    <string name="store">Store</string>
+    <string name="share">Share</string>
+    <string name="aboutus">About Us</string>
+    <string name="paymentinfo">Payment Info</string>
+    <string name="settings">Settings</string>
+
+    <!-- Reset Password -->
+    <string name="resetcontent">Check your email for a link to reset your password securely.</string>
+
+    <!-- Product Info -->
+    <string name="products">Products</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="error_empty_quantity">Quantity is Empty</string>
+
+    <!-- Weather Section -->
+    <string name="weather">Weather</string>
+    <string name="translate">Translate</string>
+
+    <!-- Categories -->
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fertilizer">Fertilizers</string>
+    <string name="machine_equipment">Equipment</string>
+    <string name="flowers">Flowers</string>
+    <string name="other_services">Other Services</string>
+
+    <!-- Sample Products -->
+    <string name="apple">Apple</string>
+    <string name="orange">Orange</string>
+    <string name="grapes">Grapes</string>
+    <string name="banana">Banana</string>
+    <string name="jackfruit">Jackfruit</string>
+
+    <!-- Onion Guide -->
+    <string name="oh">Onion Planting Guide</string>
+
+    <!-- Weather Section -->
+    <string name="wh1">Select City in Tamil Nadu</string>
+    <string name="wh2">Weather Information</string>
+    <string name="ws">Please select a city to get weather updates.</string>
+    <string name="get_weather">Get Weather</string>
+
+    <!-- Arrays -->
+    <string-array name="consultancy_types">
+        <item>Soil Analysis</item>
+        <item>Crop Selection</item>
+        <item>Fertilizer Guidance</item>
+        <item>Irrigation Planning</item>
+        <item>Market Trends</item>
+        <item>Pest Control</item>
+    </string-array>
+    <string-array name="crops_array">
+        <item>Tomato</item>
+        <item>Onion</item>
+    </string-array>
+    <string-array name="tamil_nadu">
+        <item>Dindigul</item>
+        <item>Madurai</item>
+        <item>Theni</item>
+        <item>Viruthunagar</item>
+        <item>Karur</item>
+        <item>Kannyakumari</item>
+    </string-array>
+
+    <!-- Order Screen -->
+    <string name="order_summary">Order Summary</string>
+    <string name="total_amount">Total Amount: ₹0</string>
+    <string name="your_name">Your Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_city_town">Your City/Town</string>
+    <string name="your_district">Your District</string>
+    <string name="pincode">Pincode</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+
+    <!-- Vegetables Section -->
+    <string name="tomato">Tomato</string>
+
+    <!-- General Strings -->
+    <string name="date">Date</string>
+    <string name="task_name">Task Name</string>
+    <string name="number_of_workers">Number of Workers</string>
+    <string name="salary_per_worker">Salary Per Worker</string>
+    <string name="total_salary">Total Salary</string>
+    <string name="calculate_total_salary">Calculate Total Salary</string>
+
+    <!-- Hints -->
+    <string name="enter_number_of_workers">Enter Number of Workers</string>
+    <string name="enter_salary_per_worker">Enter Salary Per Worker</string>
+
+    <!-- General Strings -->
+    <string name="no_notification">No Notifications</string>
+
+    <!-- Common Strings -->
+    <string name="instruction">Instruction</string>
+    <string name="soil_test">Soil Test</string>
+    <string name="water_management">Water Management</string>
+    <string name="labor_tracking">Labor Tracking</string>
+    <string name="profit_loss">Profit/Loss Estimation</string>
+
+    !-- Section Titles -->
+    <string name="expenditures">Expenditures</string>
+    <string name="income">Income</string>
+
+    <!-- Expenditure Input Hints -->
+    <string name="hint_land_cost">Land Cost (₹)</string>
+    <string name="hint_depreciation">Depreciation (₹)</string>
+    <string name="hint_taxes">Taxes and Insurance (₹)</string>
+    <string name="hint_seeds">Seeds and Planting Material (₹)</string>
+    <string name="hint_fertilizers">Fertilizers and Soil Amendments (₹)</string>
+    <string name="hint_labor">Labor (₹)</string>
+    <string name="hint_water">Water/Irrigation (₹)</string>
+    <string name="hint_fuel">Fuel and Electricity (₹)</string>
+    <string name="hint_machinery_maintenance">Machinery Maintenance (₹)</string>
+    <string name="hint_transportation">Transportation and Logistics (₹)</string>
+    <string name="hint_storage">Storage and Packaging (₹)</string>
+
+    <!-- Income Input Hints -->
+    <string name="hint_revenue_crop_sales">Crop Sales (₹)</string>
+    <string name="hint_revenue_livestock">Livestock Products (₹)</string>
+    <string name="hint_revenue_by_products">By-products (₹)</string>
+    <string name="hint_revenue_value_added">Value-added Products (₹)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+
+    <!-- Title -->
+    <string name="soil_test_title">Soil Suitability Test for Tomatoes</string>
+
+    <!-- Input Labels -->
+    <string name="enter_soil_moisture">Enter Soil Moisture</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="enter_humidity">Enter Humidity</string>
+    <string name="enter_nitrogen">Enter Nitrogen (mg/kg)</string>
+    <string name="enter_phosphorus">Enter Phosphorus (mg/kg)</string>
+    <string name="enter_potassium">Enter Potassium (mg/kg)</string>
+    <string name="select_soil_type">Select Soil Type</string>
+
+    <!-- Button Text -->
+    <string name="check_suitability">Check Suitability</string>
+
+    <!-- Titles -->
+    <string name="title_text">Growing Healthy Tomatoes</string>
+    <string name="choose_variety_title">Choose the Right Variety</string>
+    <string name="planting_time_title">Plan the Planting Time</string>
+    <string name="location_title">Select the Location</string>
+    <string name="harden_off_title">Harden Off Seedlings</string>
+    <string name="pruning_title">Pruning</string>
+    <string name="harvesting_title">Harvesting</string>
+
+    <!-- Descriptions -->
+    <string name="choose_variety_details">Select tomato seeds based on your climate, soil type, and intended use (e.g., cherry tomatoes, heirloom, or Roma). Consider disease-resistant varieties for a healthier crop.</string>
+    <string name="planting_time_details">Tomatoes thrive in warm weather. Plan to plant after the last frost date in your region. Use a calendar to ensure your seedlings are ready for transplanting.</string>
+    <string name="location_details">Choose a location with full sun (at least 6-8 hours of direct sunlight daily). Ensure good air circulation to prevent fungal diseases.</string>
+    <string name="harden_off_details">1. Dig a hole twice as wide and slightly deeper than the seedling\'s root ball.\n\n2. Plant deeply - bury the stem up to the first set of leaves to encourage strong root development.\n\n3. Space plants 18-24 inches apart.\n\n4. Water thoroughly after planting.</string>
+    <string name="pruning_details">1. Remove small shoots growing between the main stem and branches to focus energy on fruit production.\n\n2. Prune lower leaves to prevent disease spread from the soil.</string>
+    <string name="harvesting_details">1. Tomatoes are ready to harvest when they are firm, fully colored, and slightly soft to the touch.\n\n2. Gently twist or cut the fruit from the plant to avoid damage.\n\n3. Harvest regularly to encourage continued fruit production.</string>
+
+    <!-- Section Titles -->
+    <string name="oh1">Seed Selection</string>
+    <string name="oh2">Soil Preparation</string>
+    <string name="oh3">Planting</string>
+    <string name="oh4">Watering</string>
+    <string name="oh5">Harvesting</string>
+
+    <!-- Section Details -->
+    <string name="opara1">Choose high-quality onion seeds that are suited to your climate and soil conditions. Opt for certified seeds for better results.</string>
+    <string name="opara2">Prepare the soil by loosening it to improve aeration. Add organic compost and ensure the soil has good drainage to prevent waterlogging.</string>
+    <string name="opara3">Plant onion seeds or seedlings in rows, leaving enough space between them to allow for growth. Ensure they are planted at the appropriate depth.</string>
+    <string name="opara4">Water the onions regularly, especially during dry periods. Avoid overwatering, as onions prefer moist but not soggy soil.</string>
+    <string name="opara5">Harvest onions when the tops turn yellow and start to fall over. Cure the onions in a dry, well-ventilated area for better storage.</string>
+
+    <!-- Section Titles -->
+    <string name="onion">Onion</string>
+
+    <!-- Common Text Strings -->
+    <string name="select_category">Select Category:</string>
+    <string name="select_crop">Select Crop:</string>
+    <string name="select_date">Select Date:</string>
+    <string name="select_time">Select Time:</string>
+    <string name="calculate_profit_loss">Calculate Profit / Loss</string>
+
+    <!-- Weather Related Strings -->
+    <string name="weather_select_city">Select City:</string>
+    <string name="weather_info_label">Weather Info:</string>
+    <string name="weather_default_info">No weather data available</string>
+    <string name="get_weather_button">Get Weather</string>
+
+    <string name="login2">Login</string>
+    <string name="register2">Register</string>
+    <string name="register3">Register Account</string>
+    <string name="th">Tomato Planing Guide</string>
+
+    <array name="task_names">
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+    </array>
+
+    <array name="soil_types">
+        <item>Clay</item>
+        <item>Sandy</item>
+        <item>Loam</item>
+    </array>
+
+    <array name="category_array">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Crops</item>
+    </array>
+
+</resources>

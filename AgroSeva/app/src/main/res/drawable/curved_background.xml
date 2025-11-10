@@ -1,0 +1,8 @@
+<!-- res/drawable/curved_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/green" />
+    <corners android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="120dp"
+        android:bottomRightRadius="120dp" />
+</shape>

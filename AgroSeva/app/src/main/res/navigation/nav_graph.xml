@@ -1,0 +1,7 @@
+<fragment
+    android:id="@+id/bookSessionFragment"
+    android:name="com.example.agroseva.BookSessionFragment"
+    android:label="Book Session"
+    tools:layout="@layout/fragment_book_session"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" />

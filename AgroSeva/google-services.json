@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919063960258",
+    "project_id": "agro-seva-b74df",
+    "storage_bucket": "agro-seva-b74df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919063960258:android:2f7546dc28436e82cbb95b",
+        "android_client_info": {
+          "package_name": "com.example.agroseva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8WFmg_yKNnWjEiK8zQflWSLnstDzeDeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

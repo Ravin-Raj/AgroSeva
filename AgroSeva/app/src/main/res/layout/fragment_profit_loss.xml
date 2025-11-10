@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Expenditure Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenditures"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_land_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_land_cost"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_depreciation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_depreciation"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_taxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_taxes"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_seeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_seeds"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_fertilizers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_fertilizers"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_labor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_labor"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_water"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_fuel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_fuel"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_machinery_maintenance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_machinery_maintenance"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_transportation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_transportation"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_storage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_storage"
+            android:inputType="numberDecimal" />
+
+        <!-- Income Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/income"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_revenue_crop_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_revenue_crop_sales"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_revenue_livestock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_revenue_livestock"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_revenue_by_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_revenue_by_products"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_revenue_value_added"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_revenue_value_added"
+            android:inputType="numberDecimal" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/button_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_profit_loss"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/color_white" />
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

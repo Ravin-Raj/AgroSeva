@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title Section -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <!-- Photos Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/onion_seed"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="#eeeeee" />
+
+            <ImageView
+                android:id="@+id/photo2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/onion_sprout"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="#eeeeee" />
+
+            <ImageView
+                android:id="@+id/photo3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/onion_harvest"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="#eeeeee" />
+        </LinearLayout>
+
+        <!-- Section: Seed Selection -->
+        <TextView
+            android:id="@+id/choose_variety_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/choose_variety_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opara1"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Soil Preparation -->
+        <TextView
+            android:id="@+id/soil_preparation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/soil_preparation_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opara2"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Planting -->
+        <TextView
+            android:id="@+id/planting_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/planting_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opara3"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Watering -->
+        <TextView
+            android:id="@+id/watering_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh4"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/watering_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opara4"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Harvesting -->
+        <TextView
+            android:id="@+id/harvesting_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oh5"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/harvesting_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opara5"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</ScrollView>

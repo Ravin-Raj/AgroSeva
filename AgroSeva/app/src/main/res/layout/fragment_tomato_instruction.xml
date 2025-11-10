@@ -1,0 +1,205 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title Section -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/th"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <!-- Photos Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cherry"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_image" />
+
+            <ImageView
+                android:id="@+id/photo2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/better"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_image" />
+
+            <ImageView
+                android:id="@+id/photo3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/yellow"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_image" />
+
+            <ImageView
+                android:id="@+id/photo4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/roma"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_image" />
+        </LinearLayout>
+
+        <!-- Section: Choose the Right Variety -->
+        <TextView
+            android:id="@+id/choose_variety_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_variety_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/choose_variety_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_variety_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Plan the Planting Time -->
+        <TextView
+            android:id="@+id/planting_time_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/planting_time_title"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/planting_time_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planting_time_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Select the Location -->
+        <TextView
+            android:id="@+id/location_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/location_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Harden Off Seedlings -->
+        <TextView
+            android:id="@+id/harden_off_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harden_off_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/harden_off_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harden_off_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Pruning -->
+        <TextView
+            android:id="@+id/pruning_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pruning_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/pruning_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pruning_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Section: Harvesting -->
+        <TextView
+            android:id="@+id/harvesting_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harvesting_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/harvesting_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harvesting_details"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+</ScrollView>

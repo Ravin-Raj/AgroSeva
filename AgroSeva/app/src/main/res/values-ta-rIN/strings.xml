@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">அக்ரோ சேவா</string>
+    <string name="signup">பதிவு செய்க</string>
+    <string name="login">உள்நுழைக</string>
+    <string name="reset">கடவுச்சொல்லை மீட்டமைக்க</string>
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="reset2">மீட்டமை</string>
+    <string name="f_b">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="register">பதிவு</string>
+    <string name="login2">உள்நுழைக</string>
+    <string name="register2">பதிவு செய்க</string>
+    <string name="register3">பதிவு செய்யுங்கள்!</string>
+    <string name="fullname">முழுப்பெயர்</string>
+    <string name="username">பயனர்பெயர்</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="cpassword">கடவுச்சொல்லை உறுதிசெய்க</string>
+    <string name="old_account">ஏற்கனவே கணக்கு உள்ளதா?</string>
+    <string name="homepage">முகப்புப் பக்கம்</string>
+    <string name="notification">அறிவிப்பு</string>
+    <string name="back">மீண்டும்</string>
+    <string name="rate">மதிப்பீடு</string>
+    <string name="store">கடை</string>
+    <string name="share">பகிர</string>
+    <string name="aboutus">எங்களை பற்றி</string>
+    <string name="paymentinfo">கொடுப்பனவு தகவல்</string>
+    <string name="resetcontent">"உங்கள் கடவுச்சொல்லை பாதுகாப்பாக மீட்டமைக்க ஒரு இணைப்புக்காக உங்கள் மின்னஞ்சலைச் சரிபார்க்கவும்."</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="skip">உள்நுழைவை தவிர்க்கவும்</string>
+    <string name="fruits">பழங்கள்</string>
+    <string name="vegetables">காய்கறிகள்</string>
+    <string name="fertilizer">உரங்கள்</string>
+    <string name="machine_equipment">கருவிகள்</string>
+    <string name="flowers">மலர்கள்</string>
+    <string name="other_services">மற்ற சேவைகள்</string>
+    <string name="price">விலை</string>
+    <string name="quantity">அளவு</string>
+    <string name="error_empty_quantity">அளவு காலியாக உள்ளது</string>
+    <string name="translate">மொழிபெயர்</string>
+
+    <string-array name="consultancy_types">
+        <item>மண்ணால் ஆய்வு</item>
+        <item>பயிர் தேர்வு</item>
+        <item>உர வழிகாட்டுதல்</item>
+        <item>நீர் பாய்ச்சல் திட்டமிடல்</item>
+        <item>சந்தை போக்கு</item>
+        <item>பூச்சிக்கொல்லுதல்</item>
+    </string-array>
+
+    <string-array name="crops_array">
+        <item>தக்காளி</item>
+        <item>வெங்காயம்</item>
+    </string-array>
+
+    <string-array name="tamil_nadu">
+        <item>திண்டுக்கல்</item>
+        <item>மதுரை</item>
+        <item>தேனி</item>
+        <item>விருதுநகர்</item>
+        <item>கரூர்</item>
+        <item>கன்னியாகுமரி</item>
+    </string-array>
+
+    <string-array name="soil_types">
+        <item>கடினமான</item>
+        <item>மணல் மிக்க</item>
+        <item>சரிந்த</item>
+        <item>கரும்பட்டி மண்</item>
+        <item>சிவப்பு மண்</item>
+    </string-array>
+
+    <string-array name="task_names">
+        <item>மாதிரி எடுக்கும் வேலை</item>
+        <item>உரத்தை போடுதல்</item>
+        <item>புல் அகற்றுதல்</item>
+        <item>செய்கை</item>
+        <item>விவசாயம்</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>பழங்கள்</item>
+        <item>காய்கறிகள்</item>
+    </string-array>
+
+</resources>
