@@ -128,7 +128,6 @@ This project showcases how technology can drive **sustainable, efficient, and pr
 
 ## 👨‍💻 Developers
 - **S. Ravin Raj (23322009)**  
-- **E. Nivetha (23322022)**  
 
 **Department of Computer Science and Applications**  
 **The Gandhigram Rural Institute (Deemed to be University)**  
